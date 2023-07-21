@@ -15,7 +15,7 @@ C:/Users/bilgi/UnityProjects/BoosterShip
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57548
+53267
 Successfully changed project path to: C:/Users/bilgi/UnityProjects/BoosterShip
 C:/Users/bilgi/UnityProjects/BoosterShip
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/bilgi/UnityProjects/BoosterShip
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [22684] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 1895778724 [EditorId] 1895778724 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KGTEEH8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [12240] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 2837105446 [EditorId] 2837105446 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KGTEEH8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [22684] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 1895778724 [EditorId] 1895778724 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KGTEEH8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12240] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 2837105446 [EditorId] 2837105446 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KGTEEH8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 7.13 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 7.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.21f1 (4907324dc95b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.21f1/Editor/Data/Resources/UnitySubsystems
@@ -69,48 +69,48 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.21f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011946 seconds.
-- Loaded All Assemblies, in  0.292 seconds
+Registered in 0.009543 seconds.
+- Loaded All Assemblies, in  0.334 seconds
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 323 ms
+Android Extension - Scanning For ADB Devices 385 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.596 seconds
+- Finished resetting the current domain, in  0.698 seconds
 Domain Reload Profiling:
-	ReloadAssembly (173ms)
-		BeginReloadAssembly (76ms)
+	ReloadAssembly (168ms)
+		BeginReloadAssembly (78ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (75ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (111ms)
-				TypeCache.Initialize (110ms)
-					TypeCache.ScanAssembly (108ms)
-				ResolveRequiredComponents (0ms)
+			SetupTypeCache (157ms)
+				TypeCache.Initialize (156ms)
+					TypeCache.ScanAssembly (154ms)
+				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (544ms)
+			SetupLoadedEditorAssemblies (627ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (425ms)
+				InitializePlatformSupportModulesInManaged (499ms)
 				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (79ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				ProcessInitializeOnLoadAttributes (84ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -120,50 +120,50 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\bilgi\UnityProjects\BoosterShip\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\bilgi\UnityProjects\BoosterShip\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.632 seconds
-Refreshing native plugins compatible for Editor in 2.27 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.634 seconds
+Refreshing native plugins compatible for Editor in 3.24 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.406 seconds
+- Finished resetting the current domain, in  0.451 seconds
 Domain Reload Profiling:
-	ReloadAssembly (206ms)
-		BeginReloadAssembly (135ms)
+	ReloadAssembly (204ms)
+		BeginReloadAssembly (129ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		LoadAllAssembliesAndSetupDomain (423ms)
-			LoadAssemblies (214ms)
+			CreateAndSetChildDomain (22ms)
+		LoadAllAssembliesAndSetupDomain (428ms)
+			LoadAssemblies (222ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (256ms)
-				TypeCache.Initialize (242ms)
-					TypeCache.ScanAssembly (238ms)
+				TypeCache.Initialize (240ms)
+					TypeCache.ScanAssembly (235ms)
 				ResolveRequiredComponents (3ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (292ms)
+			SetupLoadedEditorAssemblies (324ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (31ms)
-				SetLoadedEditorAssemblies (3ms)
+				SetLoadedEditorAssemblies (4ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (45ms)
-				ProcessInitializeOnLoadAttributes (191ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (216ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 3.69 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 2.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (56.2 KB). Loaded Objects now: 3533.
-Memory consumption went from 113.4 MB to 113.3 MB.
-Total: 3.357000 ms (FindLiveObjects: 0.329200 ms CreateObjectMapping: 0.078200 ms MarkObjects: 2.858600 ms  DeleteObjects: 0.090400 ms)
+Unloading 3068 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.2 KB). Loaded Objects now: 3535.
+Memory consumption went from 113.5 MB to 113.4 MB.
+Total: 3.805000 ms (FindLiveObjects: 0.347200 ms CreateObjectMapping: 0.173400 ms MarkObjects: 3.136200 ms  DeleteObjects: 0.147000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -176,107 +176,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 402296.312375 seconds.
-  path: Assets/Ground.mat
-  artifactKey: Guid(e9a272772358c3e48b0e822f9c41be0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ground.mat using Guid(e9a272772358c3e48b0e822f9c41be0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884adee6289232069fb583171f730e4f') in 0.143923 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 228.537892 seconds.
-  path: Assets/LaunchPad.mat
-  artifactKey: Guid(cb3a49067804ba4479dbfb7dc749fb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LaunchPad.mat using Guid(cb3a49067804ba4479dbfb7dc749fb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '396ce9ae0f956eed243d46c75cd7b089') in 0.007824 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 74.353711 seconds.
-  path: Assets/Ground.mat
-  artifactKey: Guid(e9a272772358c3e48b0e822f9c41be0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ground.mat using Guid(e9a272772358c3e48b0e822f9c41be0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b37b9a98bfae4ca3f825c2907485bfcc') in 0.009725 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/LaunchPad 1.mat
-  artifactKey: Guid(60b5c4d89cfe934419444bfc7d52a712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LaunchPad 1.mat using Guid(60b5c4d89cfe934419444bfc7d52a712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94cf835fe9666def4e2fd0f0dc12b0a') in 0.013103 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 4.379180 seconds.
-  path: Assets/LandingPad.mat
-  artifactKey: Guid(60b5c4d89cfe934419444bfc7d52a712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LandingPad.mat using Guid(60b5c4d89cfe934419444bfc7d52a712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b8669309a44d4c3d3d2497118c8e74') in 0.006656 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 161.918945 seconds.
-  path: Assets/LandingPad.mat
-  artifactKey: Guid(60b5c4d89cfe934419444bfc7d52a712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LandingPad.mat using Guid(60b5c4d89cfe934419444bfc7d52a712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5035a107e8717dfc79e4d2be8eead5d') in 0.021274 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 6.726029 seconds.
-  path: Assets/Rocket.mat
-  artifactKey: Guid(954481fc92998544bbd0b24d0a9818ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rocket.mat using Guid(954481fc92998544bbd0b24d0a9818ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6965362e15d13ed9001414ac12f63533') in 0.013215 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 13.063274 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(0accfb819ad4ba24ebedac894ed33867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(0accfb819ad4ba24ebedac894ed33867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2944c03f146b0a39bd502d6874a6f04c') in 0.002396 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 4.813545 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(51840e52bf363ba45b6628734b65d310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(51840e52bf363ba45b6628734b65d310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c650840aaacadbc5d5b5faafebc65d') in 0.002287 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 8.487336 seconds.
-  path: Assets/Prefabs/Rocket.prefab
-  artifactKey: Guid(851705f8e8b74b246b9ddc742432f0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Rocket.prefab using Guid(851705f8e8b74b246b9ddc742432f0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645228b0a632d168bb663d9d9082b72b') in 0.021000 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 1.571468 seconds.
-  path: Assets/Prefabs/Landing Pad.prefab
-  artifactKey: Guid(6b63862a1813c9045b9dc48454bb7f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Landing Pad.prefab using Guid(6b63862a1813c9045b9dc48454bb7f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b283688e5568cf04ae2099b78e6e448') in 0.007490 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 1.558718 seconds.
-  path: Assets/Prefabs/Launch Pad.prefab
-  artifactKey: Guid(52dd24c7617537340baac83afd206318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Launch Pad.prefab using Guid(52dd24c7617537340baac83afd206318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e043a30d808234465f1321245caf3f') in 0.009210 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 2.239779 seconds.
-  path: Assets/Prefabs/Ground.prefab
-  artifactKey: Guid(8937eba179e204b4fa4dfe1d78a92066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ground.prefab using Guid(8937eba179e204b4fa4dfe1d78a92066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735005ffbe42074927682e5163b11fc4') in 0.008730 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
